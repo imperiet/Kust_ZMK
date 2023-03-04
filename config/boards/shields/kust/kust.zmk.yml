@@ -1,0 +1,14 @@
+file_format: "1"
+id: kust
+name: Kust
+type: shield
+url: http://www.sone.eu/thor
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - encoder
+siblings:
+  - kust_left
+  - kust_right
