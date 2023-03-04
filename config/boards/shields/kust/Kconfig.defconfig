@@ -1,17 +1,16 @@
 if SHIELD_KUST_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Kust"
-
+	default "Kust"
 
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
 
 endif
 
-if SHIELD_KUST_LEFT||SHIELD_KUST_RIGHT
+if SHIELD_KUST_LEFT || SHIELD_KUST_RIGHT
 
 config ZMK_SPLIT
-    default y
-
+	default y
+	
 endif
