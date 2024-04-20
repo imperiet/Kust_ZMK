@@ -26,8 +26,8 @@
 			bindings
 			= <&macro_press &kp LCTRL>,
 			<&macro_tap &kp TAB>,
-			<&macro_release &kp LCTRL>,
-			
+			<&macro_release &kp LCTRL>
+			;
 		};
 		prevTab:prevTab{
 			compatible = "zmk,behavior-macro";
@@ -37,8 +37,8 @@
 			= <&macro_press &kp LSHIFT>,
 			<&macro_tap &kp TAB>,
 			<&macro_release &kp LCTRL>,
-			<&macro_release &kp LSHIFT>,
-			
+			<&macro_release &kp LSHIFT>
+			;
 		};
 	};
 	
